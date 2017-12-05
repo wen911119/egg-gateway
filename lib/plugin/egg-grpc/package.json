@@ -3,6 +3,7 @@
         "name": "grpc"
     },
     "dependencies": {
-        "consul": "^0.30.0"
+        "consul": "^0.30.0",
+        "lodash": "^4.17.4"
     }
 }
