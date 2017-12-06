@@ -1,6 +1,6 @@
 {
     "eggPlugin": {
-        "name": "grpc"
+        "name": "consul"
     },
     "dependencies": {
         "consul": "^0.30.0",
