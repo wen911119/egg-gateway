@@ -1,5 +1,8 @@
 {
     "eggPlugin": {
         "name": "grpc"
+    },
+    "dependencies": {
+        "glob": "^7.1.2"
     }
 }
