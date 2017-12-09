@@ -16,9 +16,10 @@ module.exports = appInfo => {
                 FormDataBinDingService: {
                     groupName: 'athena',
                     groupVersion: '1.0.0',
-                    service: 'FormDataBinDingService'
+                    serviceName: 'FormDataBinDingService'
                 }
-            }
+            },
+            pem: process.cwd() + '/grpc.gem'
         }
     }
 };
