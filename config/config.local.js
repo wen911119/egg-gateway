@@ -20,7 +20,11 @@ module.exports = appInfo => {
                 }
             },
             retry: 1, // 重试次数
-            pem: process.cwd() + '/grpc.pem'
+            pem: process.cwd() + '/grpc.pem',
+            options:{
+                'grpc.ssl_target_name_override': 'grpc',
+                'grpc.default_authority': 'grpc'
+            }
         }
     }
 };
