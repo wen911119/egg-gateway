@@ -5,7 +5,7 @@ module.exports = appInfo => {
         consul: {
             host: 'daily.quancheng-ec.com',
             port: "8500",
-            groups: ['athena-service', 'ceres-service', 'zeus-service', 'minos-service', 'sparta-search', 'chaos-service', 'budget-service', 'samoyed-service']
+            groups: ['athena', 'ceres', 'zeus', 'minos', 'sparta', 'chaos', 'budget', 'samoyed']
         },
         grpc: {
             proto: {
@@ -19,7 +19,8 @@ module.exports = appInfo => {
                     serviceName: 'FormDataBinDingService'
                 }
             },
-            pem: process.cwd() + '/grpc.gem'
+            retry: 1, // 重试次数
+            pem: process.cwd() + '/grpc.pem'
         }
     }
 };
