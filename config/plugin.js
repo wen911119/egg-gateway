@@ -11,5 +11,9 @@ module.exports = {
     grpc: {
         enable: true,
         path: path.join(__dirname, '../lib/plugin/egg-grpc'),
+    },
+    vueSsr: {
+        enable: true,
+        path: path.join(__dirname, '../lib/plugin/egg-vue-ssr'),
     }
 };

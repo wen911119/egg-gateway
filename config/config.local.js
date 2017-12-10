@@ -21,9 +21,16 @@ module.exports = appInfo => {
             },
             retry: 1, // 重试次数
             pem: process.cwd() + '/grpc.pem',
-            options:{
+            options: {
                 'grpc.ssl_target_name_override': 'grpc',
                 'grpc.default_authority': 'grpc'
+            }
+        },
+        vueSsr: {
+            pages: {
+                'home': {
+                    template: process.cwd() + '/templates/home.template.html'
+                }
             }
         }
     }

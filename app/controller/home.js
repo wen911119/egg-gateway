@@ -15,8 +15,19 @@ class HomeController extends Controller {
             console.log(e, 444444444444444)
         }
 
+        let ssrHtml = 'ssr failed !'
+        try {
+            ssrHtml = await this.app.ssr('home',{
+                author:'wenjun',
+                title:'Vue SSR Demo !'
+            })
+        } catch (e) {
+            console.log(e)
+            console.log('ssr failed !');
+        }
 
-        this.ctx.body = 'hi, egg';
+
+        this.ctx.body = ssrHtml;
     }
 }
 

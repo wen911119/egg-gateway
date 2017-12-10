@@ -1,0 +1,9 @@
+{
+  "eggPlugin": {
+    "name": "vueSsr"
+  },
+  "dependencies": {
+    "vue": "^2.5.9",
+    "vue-server-renderer": "^2.5.9"
+  }
+}
