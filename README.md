@@ -1,6 +1,7 @@
 # egg-gateway
 微服务架构下的前端网关
-
+todo：
+考虑使用headless chrome 来做服务端渲染
 
 ## QuickStart
 
