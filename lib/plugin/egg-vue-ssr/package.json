@@ -3,6 +3,7 @@
     "name": "vueSsr"
   },
   "dependencies": {
+    "chrome-render": "^1.4.1",
     "vue": "^2.5.9",
     "vue-server-renderer": "^2.5.9"
   }
