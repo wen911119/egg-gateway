@@ -5,11 +5,11 @@
 const path = require('path');
 module.exports = {
     consul: {
-        enable: true,
+        enable: false,
         path: path.join(__dirname, '../lib/plugin/egg-consul'),
     },
     grpc: {
-        enable: true,
+        enable: false,
         path: path.join(__dirname, '../lib/plugin/egg-grpc'),
     },
     vueSsr: {
