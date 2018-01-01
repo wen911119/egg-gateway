@@ -15,5 +15,9 @@ module.exports = {
     vueSsr: {
         enable: false,
         path: path.join(__dirname, '../lib/plugin/egg-vue-ssr'),
+    },
+    graphql: {
+        enable: true,
+        path: path.join(__dirname, '../lib/plugin/egg-graphql'),
     }
 };
