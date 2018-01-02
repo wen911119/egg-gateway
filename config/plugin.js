@@ -5,11 +5,11 @@
 const path = require('path');
 module.exports = {
     consul: {
-        enable: false,
+        enable: true,
         path: path.join(__dirname, '../lib/plugin/egg-consul'),
     },
     grpc: {
-        enable: false,
+        enable: true,
         path: path.join(__dirname, '../lib/plugin/egg-grpc'),
     },
     vueSsr: {
@@ -18,6 +18,7 @@ module.exports = {
     },
     graphql: {
         enable: true,
-        path: path.join(__dirname, '../lib/plugin/egg-graphql'),
+        // path: path.join(__dirname, '../lib/plugin/egg-graphql'),
+        package:'egg-graphql'
     }
 };

@@ -17,6 +17,11 @@ module.exports = appInfo => {
                     groupName: 'athena',
                     groupVersion: '1.0.0',
                     serviceName: 'FormDataBinDingService'
+                },
+                ApprovalflowService:{
+                    groupName: 'minos',
+                    groupVersion: '1.0.0',
+                    serviceName: 'ApprovalflowService'
                 }
             },
             retry: 1, // 重试次数
